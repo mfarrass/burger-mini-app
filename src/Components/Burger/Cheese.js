@@ -4,7 +4,7 @@ import React from 'react'
 
 const Chesse = () => {
   return ( //berbagai komponen html bisa dituliskan disini, konsepnya mirip seperti partials
-    <h1> Chesse</h1> 
+    <div> Chesse</div> 
   )
 }
 

@@ -9,12 +9,13 @@ import Cheese from './Cheese' // ./ = satu folder
 import Tomato from './Tomato' // ./ = satu folder
 
 
+
 const Burger = () => {
 //berbagai komponen html bisa dituliskan disini, konsepnya mirip seperti partials
   return ( 
     // Pemangilan import disini harus dibungkus (<></> = React Fragment) agar tidak error, karna pemanggilan hanya boleh 1.
     // Berikut komponen komponen dari halaman burger dari file masing2.
-
+    
     <>
         <Bun />
         <Patty />
