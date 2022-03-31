@@ -19,7 +19,6 @@ function App() {
     // Routes disini adalah jsx = representasi html dalam sebuah javascript
     // file javascript harus pakai {}
     // h1 dan Link contoh layout default ketika berpindah halaman
-
     <>
     <Routes>
       <Route path="/" element={<Home />} /> 
@@ -34,3 +33,4 @@ export default App;
 
 
 
+// 21:35 sudah benar enakan gini
