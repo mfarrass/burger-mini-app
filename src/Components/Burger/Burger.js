@@ -14,7 +14,7 @@ const Burger = () => {
 
   const [ingredients,setIngredients] = useState([])
 
-  // nenbandingkan 2 memori dengan sprate operator
+  // menbandingkan 2 memori dengan sprate operator
   const addIngredientsHandler = (ingredients) => {
     setIngredients( prevState => {
 
