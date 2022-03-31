@@ -1,0 +1,19 @@
+.burgermaker_container {
+    height: 100%;
+    display: flex;
+}
+
+.controller {
+    background: #1f1a1a;
+    font-family: roboto;
+    color: white;
+    width: 280px;
+}
+
+.burger_display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}

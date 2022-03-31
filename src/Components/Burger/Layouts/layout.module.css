@@ -12,7 +12,7 @@
     padding: 8px 16px;
     text-decoration: none;
     background: #980101;
-    border-radius: 999px;
+    border-radius: 10px;
 }
 
 .navigation_item:hover {

@@ -1,6 +1,6 @@
 // yang akan ditampilkan kehalaman browser  
 
-import React, { useState } from 'react'
+import React  from 'react'
 
 import Bun from './Bun' // ./ = satu folder
 import Patty from './Patty' // ./ = satu folder
@@ -8,35 +8,18 @@ import Lettuce from './Lettuce' // ./ = satu folder
 import Cheese from './Cheese' // ./ = satu folder
 import Tomato from './Tomato' // ./ = satu folder
 
+import style from './burger.module.css'
 
 
-const Burger = () => {
 
-  const [ingredients,setIngredients] = useState([])
+const Burger = (props) => {
 
-  // menbandingkan 2 memori dengan sprate operator
-  const addIngredientsHandler = (ingredients) => {
-    setIngredients( prevState => {
-
-      // [...] sprate operator = cara mencopy array/object
-      // ingredients = isi array yang lama
-      // , ...prevState = ditambah array yang baru
-      const newIngredients = [ingredients,...prevState]
-      console.log(newIngredients);
-      
-      // menambahkan data baru
-      return newIngredients
-
-    })
-  }
- 
-
-//berbagai komponen html bisa dituliskan disini, konsepnya mirip seperti partials
+  //berbagai komponen html bisa dituliskan disini, konsepnya mirip seperti partials
   return ( 
 
-    <>
+    <div className={style.burger}>
         <Bun type="top" />
-        {ingredients.map( (item, index) => {
+        {props.ingredients.map( (item, index) => {
           switch (item) {
             case 'patty':
               return <Patty key={index} />
@@ -53,13 +36,8 @@ const Burger = () => {
           }
           })}
         <Bun />
-        {/* button = sebagai triger tanpa event listener */}
-        <button onClick={() => addIngredientsHandler('patty')} >Add Patty</button>
-        <button onClick={() => addIngredientsHandler('lettuce')} >Add Lettuce</button>
-        <button onClick={() => addIngredientsHandler('bun')} >Add Bun</button>
-        <button onClick={() => addIngredientsHandler('cheese')} >Add Cheese</button>
-        <button onClick={() => addIngredientsHandler('tomato')} >Add Tomato</button>
-    </>
+      
+    </div>
   
   )
 }

@@ -1,8 +1,5 @@
-/* https://replit.com/@Panca-SatriaSat/burger-mini-app#src/Components/Burger/burger.module.css */ 
-
 .burger {
     max-width: 290px;
-    padding: 50px;
 }
 
 .bun {
@@ -20,21 +17,16 @@
 .bun_top {
     height: 90px;
     border-top-right-radius: 100%;
-    border-top-left-radius: 100%;
+    border-top-left-radius: 100%;    
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    background: linear-gradient(
-      0deg,
-      rgba(242, 199, 5, 1) 0%,
-      rgba(208, 167, 16, 1) 100%
-    );
-  }
-  
-  .bun_insert {
+    background: linear-gradient(0deg, rgba(242,199,5,1) 0%, rgba(208,167,16,1) 100%);
+}
+
+.bun_insert {
     height: 40px;
     border-radius: 10px;
-  }
-  
+}
 
 .patty {
     height: 40px;
