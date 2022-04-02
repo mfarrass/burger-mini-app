@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Dongle:wght@300;400;700&family=Montserrat+Alternates:wght@300&family=Montserrat:wght@100;400;500;700&family=Nunito:wght@200;300;400;600;700&family=Oswald:wght@200;300&family=Quicksand:wght@300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Rock+3D&family=Rubik+Glitch&family=Shadows+Into+Light&display=swap');
+
 .home_container {
     display: flex;
-    width: 100%;
+    width: 100%;    
     height: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
+h1 {
+    color: #333333; 
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #eaeaea, 5px 4px 0px rgba(0,0,0,0.15);
+  }

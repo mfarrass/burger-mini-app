@@ -6,6 +6,7 @@
     margin: 20px 16px;
     overflow-y: auto;
     height:300px;
+    color: black;
 }
 .button_container {
     display: flex;
@@ -21,7 +22,7 @@
 }
 
 .map_item {
-    background: #eaeaea;
+    background: white;
     border: 1px solid #666666;
     border-radius: 5px;
     padding: 8px;
@@ -41,5 +42,10 @@
 }
 .order_button {
     color: orange;
+    font-size: 24px;
+}
+
+.order_button2 {
+    color: #fc5e03;
     font-size: 24px;
 }

@@ -27,7 +27,7 @@
 import React from 'react'
 
 import style from './home.module.css'
-import Layout from '../Components/Burger/Layouts/Layout'
+
 
 
 
@@ -37,10 +37,10 @@ const Home = () => {
 
   return (
     <>
-    <Layout>
+   
         <div className={style.home_container}>
           <h1>Welcome to Burger Maker</h1></div>
-          </Layout>
+         
           </>
   )
 }
